@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAMDUT - JaquesRD</title>
+
+    <!-- Favicon (opcional, você pode adicionar uma depois) -->
+    <link rel="icon" href="/assets/images/favicon.png" />
+
+    <!-- Tailwind CSS CDN (versão mais recente via CDN) -->
+    <script src="https://cdn.tailwindcss.com "></script>
+
+    <!-- Custom Tailwind Config (opcional, se quiser personalizar tema) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: '#0d6efd',
+              secondary: '#6c757d',
+              dark: '#121212',
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Fonts (para Inter ou outra fonte clean) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- React e ReactDOM (CDN para build simples sem bundler) -->
+    <script crossorigin src=" https://unpkg.com/react @18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom @18/umd/react-dom.development.js"></script>
+
+    <!-- Babel (para usar JSX diretamente no navegador) -->
+    <script src="https://unpkg.com/ @babel/standalone/babel.min.js"></script>
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-white text-gray-900 font-sans antialiased">
+    <div id="root"></div>
+
+    <!-- Arquivo App.jsx compilado como script JSX -->
+    <script type="text/babel" src="App.jsx"></script>
+  </body>
+</html>
