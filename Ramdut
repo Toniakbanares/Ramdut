@@ -1,0 +1,7 @@
+Ramdut/
+├── index.html        ← Ponto de entrada
+├── App.jsx           ← Componente principal em React
+├── style.css         ← Estilos customizados
+├── README.md         ← Informações sobre o projeto
+└── assets/           ← Imagens e recursos extras (opcional)
+    └── images/
