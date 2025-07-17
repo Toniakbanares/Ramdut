@@ -24,7 +24,7 @@ body {
     background: var(--gradient);
     color: var(--text-dark);
     line-height: 1.6;
-    overflow-x: hidden;
+    min-height: 100vh;
 }
 
 .container {
